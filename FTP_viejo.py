@@ -6,10 +6,10 @@ import ftplib
 import os #Se ingresó este módulo por facilidad en la hora de descargar el archivo
 
 
-ftp = FTP("casaenz23.bplaced.net")
-usu1 = "casaenz23_Prueba1"
+ftp = FTP("10.0.2.5")
+usu1 = "salo"
 #input("Por favor ingrese su usuario: ") #Se pide el usuario
-pass1 = "Prueba1"
+pass1 = "cyberpunk2022"
 #input("Por favor ingrese su contraseña: ") #Se pide la clave
 
 try:
@@ -18,11 +18,11 @@ try:
     print(ftp.getwelcome()) #Mensaje de bienvenida
     print("Se inició sesión correctamente en el cliente FTP")
 
-    ftp.cwd('imagenes_proyecto_final') #Se accede al directorio donde se encuentran los archivos a analizar
-    print("Ubicado exitosamente en la carpeta: "+ ftp.pwd())
-    ftp.retrlines("LIST")
+    #ftp.cwd('imagenes_proyecto_final') #Se accede al directorio donde se encuentran los archivos a analizar
+    #print("Ubicado exitosamente en la carpeta: "+ ftp.pwd())
+    #ftp.retrlines("LIST")
 
-    print("Se ingresó correctamente al directorio")
+    #print("Se ingresó correctamente al directorio")
 
     #os.chdir("C:\\Users\\user\\Desktop\\Proyecto Final") #Ruta para la descarga
 
