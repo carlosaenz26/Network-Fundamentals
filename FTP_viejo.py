@@ -6,8 +6,8 @@ import ftplib
 import os #Se ingresó este módulo por facilidad en la hora de descargar el archivo
 
 
-ftp = FTP("10.0.2.5")
-usu1 = "salo"
+ftp = FTP("10.0.2.15")
+usu1 = "cyberpunk"
 #input("Por favor ingrese su usuario: ") #Se pide el usuario
 pass1 = "cyberpunk2022"
 #input("Por favor ingrese su contraseña: ") #Se pide la clave

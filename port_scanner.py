@@ -25,7 +25,7 @@ def get_ports(mode):
         for port in range(1, 49152):
             queue.put(port)
     elif mode == 3:
-        ports = [20, 21, 22, 23, 25, 53, 80, 110, 443,1720]
+        ports = [20, 80, 443,1720,8080,8443]
         #ports = [20, 21, 22, 23, 25, 53, 80, 110, 443]
         for port in ports:
             queue.put(port)
