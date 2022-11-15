@@ -1,8 +1,9 @@
+#%%
 import socket
 import os
 from pythonping import *
 import numpy as np
-
+#%%
 
 HOST = 'iele1400.ddns.net' # Host Servidor
 PORT = 55555 # Puerto TCP
