@@ -5,9 +5,9 @@ from pythonping import *
 import numpy as np
 #%%
 
-HOST = 'iele1400.ddns.net' # Host Servidor
-PORT = 55555 # Puerto TCP
-BUFFER_SIZE = 4096
+HOST =  # Host Servidor
+PORT = # Puerto TCP
+BUFFER_SIZE = #4096 a definir intenten con diferentes tamaños
 SEPARATOR = "<SEPARATOR>"
 lista = []
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  #Creación del Socket

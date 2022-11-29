@@ -3,9 +3,14 @@ from queue import Queue
 import socket
 import threading
 #%%
+<<<<<<< HEAD
 #target = "192.168.10.158"
 target="https://bvc.co/mercado-local-en-linea?tab=renta-variable_mercado-local"
 #"10.0.2.15"
+=======
+target = "157.253.205.42"
+
+>>>>>>> 710470b0451562b33d1df6f3a7232f5bc9a229cd
 queue = Queue()
 open_ports = []
 #%%
@@ -26,7 +31,7 @@ def get_ports(mode):
         for port in range(1, 49152):
             queue.put(port)
     elif mode == 3:
-        ports = [20, 80, 443,1720,8080,8443]
+        ports = [20, 21,22]
         #ports = [20, 21, 22, 23, 25, 53, 80, 110, 443]
         for port in ports:
             queue.put(port)
