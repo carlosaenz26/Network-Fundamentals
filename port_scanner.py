@@ -4,7 +4,8 @@ import socket
 import threading
 #%%
 #target = "192.168.10.158"
-target="10.0.2.15"
+target="https://bvc.co/mercado-local-en-linea?tab=renta-variable_mercado-local"
+#"10.0.2.15"
 queue = Queue()
 open_ports = []
 #%%
@@ -64,7 +65,7 @@ def run_scanner(threads, mode):
     print("Open ports are:", open_ports)
 #%%
 run_scanner(100, 2)
-run_scanner(100, 3)
+#run_scanner(100, 3)
 #%%
 run_scanner(100, 3)
 #%%
